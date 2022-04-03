@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galagastetroids</title>
+    <link rel="stylesheet" href="game.css">
+
+    <script src="game.js"></script>
+</head>
+
+<body>
+
+    <header class="wrap">
+        <h1>Galagastetroids</h1>
+        <br>
+        <div id="score_display">
+            <p class="score">Length: <span id="length_value">0</span></p>
+            <p class="score">Score: <span id="score_value">0</span></p>
+        </div>
+    </header>
+    <canvas class="wrap" id="game_canvas" width="480" height="360" tabindex="1"></canvas>
+
+    <!-- images -->
+    <div style="text-align: center">
+        <img id="ghost_pinky" src="/img/pinky.png">
+        <img id="ghost_clyde" src="/img/clyde.png">
+        <img id="ship" src="/img/ship.png">
+        <img id="ghost_inky" src="/img/inky.png">
+        <img id="ghost_blinky" src="/img/blinky.png">
+    </div>
+
+    <div style="text-align: center; margin: 30px">
+        <p>
+            Left/right arrows to turn
+            <br>
+            Up arrow to move faster
+            <br>
+            Down arrow to move slower
+            <br>
+            Space to shoot
+            <br>
+            P to pause
+        </p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</body>
