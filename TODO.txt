@@ -1,0 +1,23 @@
+what we need to complete the prototype:
+- game over
+- basic scoring system (now displays, needs polishing)
+
+don't forget the demo video and form submission!
+
+game design stuff:
+- game gets harder over time
+    - snake getting longer is good challenge
+- indicate tetris and ghost spawn locations
+- try to make shooting while turning more smooth
+- prevent tail from lagging behind while speeding up snake (shift list multiple times?)
+
+good to have for judging:
+- pause button
+- sound effects
+- visual (explosion) effects
+- menu
+
+extras:
+- intro cutscene
+- eyeballs face direction of motion?
+- amogus cheat code
